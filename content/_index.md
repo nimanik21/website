@@ -3,7 +3,7 @@ title: "Nima Nikopour"
 ---
 
 <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-  <img src="/images/profile.jpg" alt="Profile Picture" style="width:160px; border-radius: 50%; margin-bottom: 1rem;" />
+  <img src="/images/nima.jpg" alt="Profile Picture" style="width:160px; border-radius: 50%; margin-bottom: 1rem;" />
   
   <p>
     I’m an incoming PhD student in Economics at Emory University.  
