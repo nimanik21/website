@@ -1,0 +1,38 @@
+baseURL = "https://nimanikopour.netlify.app/"
+languageCode = "en-us"
+title = "Nima Nikopour"
+theme = "PaperMod"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+  author = "Nima Nikopour"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  hideFooter = false
+  hideCredits = false
+
+[menu]
+ 
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
