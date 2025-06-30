@@ -6,7 +6,7 @@ pygmentsUseClasses = true
 
 [params]
   math = true
-  katex = false
+  katex = true
   defaultTheme = "light"
 
 [[menu.main]]
