@@ -1,0 +1,46 @@
+baseURL = "https://nimanikopour.netlify.app/"
+languageCode = "en-us"
+title = "Nima Nikopour"
+theme = "PaperMod"
+pygmentsUseClasses = true
+
+[params]
+  math = true
+  katex = false
+  defaultTheme = "light"
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  url = "/CV_2025.pdf"
+  weight = 20
+ 
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
+  weight = 15
+
+
+
+
+[params.assets]
+  favicon = "favicon.ico"
+  favicon_16 = "favicon-16x16.png"
+  favicon_32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+  safari_pinned_tab = "safari-pinned-tab.svg"
+  theme_color = "#004225"
+  msapplication_tilecolor = "#004225"
+  customCSS = ["css/custom.css"]
